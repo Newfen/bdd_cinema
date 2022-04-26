@@ -1,0 +1,53 @@
+*{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+table{
+    border: solid 1px black;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th{
+    border: solid 1px black;
+    text-align: start;
+    background-color: darkslategrey;
+    color: white;
+    padding: 0 1rem;
+}
+
+td{
+    border: solid 1px black;
+    padding: 0 1rem;
+}
+
+#contenu{
+    display: grid;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: darkslategrey;
+}
+
+nav a{
+    color: white;
+}
+
+.container{
+    display: flex;
+    gap: 2rem;
+}
+
+form{
+    display: grid;
+}
